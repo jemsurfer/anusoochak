@@ -2,4 +2,6 @@ class FirstComeFirstServe:
 
     queue = []
 
-    def __init
+    def __init__():
+        pass
+
