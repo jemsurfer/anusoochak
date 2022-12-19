@@ -1,6 +1,6 @@
 # Communication protocol for algorithms
 
-__Input Protocol:
+__Input Protocol:__
 A dictionary mapping Protocol to Arrival times and Burst Times of each processs
 
 ```python
@@ -11,7 +11,7 @@ Process1 has an Arrival TIme of 2ms and a Burst Time of 3ms.
 Process2 has an Arrrival Timme of 0ms and Burst Time of 5ms.
 
 
-__Algorithmn Output Protocol:
+__Algorithmn Output Protocol:__
 A dicitonary mapping Protocol to Start Times and End Times
 
 ```python
