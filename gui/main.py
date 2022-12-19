@@ -1,5 +1,6 @@
 from tkinter import messagebox, ttk, Button
 from tkinter import *
+from results import inputField
 
 def main():
     ##Tkinter frame set up with name variable
@@ -11,7 +12,7 @@ def main():
     ttk.Label(frm, text="anusoochak").grid(column=0, row=0)
     t = optionMenu(root, frm)
 
-    button = Button(frm, text="Test").grid(column=0, row=1)
+    button = Button(frm, text="Test", command=t.loadProgram).grid(column=0, row=1)
 
     root.mainloop()
 
@@ -21,10 +22,13 @@ class optionMenu():
         choices = ["First come First serve", "Round robin", "Shortest job first", "Shortest time first", "Bozo"]
         self.__option = StringVar(root)
         self.__option.set("First come First serve")
-        optionMenu = OptionMenu(frm, self.__option, *choices).grid(column=1, row=0)
+        self.__optionMenu = OptionMenu(frm, self.__option, *choices).grid(column=1, row=0)
 
     def getOption(self):
         return self.__option.get()
+
+    def loadProgram(self):
+        inputField(self.__option.get())
 
 if __name__ == "__main__":
     main()
