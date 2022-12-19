@@ -1,7 +1,13 @@
-class FirstComeFirstServe:
+#First Come
+def queue(iters: int):
+    queuelst = []
+    for i in range(iters):
+        arrival_time = float(input("arrival "))
+        burst_time = float(input("burst "))
+        queuelst.append(f'{arrival_time} , {burst_time}')
+        i += 1
+    return queuelst
 
-    queue = []
-
-    def __init__():
-        pass
-
+x = int(input('p'))
+y = queue(x)
+print(y)
