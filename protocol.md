@@ -17,8 +17,6 @@ A dictionary mapping Protocol to Start Times and End Times
 ```python
 outDict = {"Process1": [[0,2],[4,6]], "Process2": [[2,4],[6,8]]}
 ```
-
-Process1 has a Start time of 0ms then runs for 2ms for end of 2ms. Then starts again at 4ms and runs for 2ms for end of 6ms
-Process2 has a Start time of 2ms then runs for 2ms for end of 4ms. Then starts again at 6ms and runs for 2ms for end of 8ms
+The first index of the array is the arrival times, and the second is the end times.
 
 __All algorithms need to use this protocol, to make ethan's job easier.__
