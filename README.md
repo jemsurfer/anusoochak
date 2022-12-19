@@ -126,7 +126,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ## Roadmap
 
 - [ ] Implement algorithms 
-- [ ] Get GUI working 
+- [x] Get GUI working 
 - [ ] Get GUI to communicate with algorithms 
 
 See the [open issues](https://github.com/sauce420/anusooochak/issues) for a full list of proposed features (and known issues).
