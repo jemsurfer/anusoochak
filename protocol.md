@@ -7,12 +7,12 @@ A dictionary mapping Protocol to Arrival times and Burst Times of each processs
 inDict = {'Process1': [2,3], "Process2": [0,5]} 
 ```
 
-Process1 has an Arrival TIme of 2ms and a Burst Time of 3ms. 
-Process2 has an Arrrival Timme of 0ms and Burst Time of 5ms.
+Process1 has an Arrival Time of 2ms and a Burst Time of 3ms. 
+Process2 has an Arrival Time of 0ms and Burst Time of 5ms.
 
 
 __Algorithmn Output Protocol:__
-A dicitonary mapping Protocol to Start Times and End Times
+A dictionary mapping Protocol to Start Times and End Times
 
 ```python
 outDict = {"Process1": [[0,2],[4,6]], "Process2": [[2,4],[6,8]]}
